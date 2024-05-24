@@ -1,14 +1,8 @@
-:root {
-  --text-color-link-dark: #222;
-  --text-color-link-light: #fcfcfc;
-  --bg-color-primary: #fff;
-  --bg-color-secondary: #008251;
-}
-
 #header {
   top: 0px;
   left: 0px;
   position: sticky;
+  background-color: var(--bg-color-primary);
 }
 #header .header__grid {
   display: grid;
@@ -16,7 +10,6 @@
   padding: 15px 0 10px 0;
   grid-template-columns: 100px auto;
   grid-template-rows: repeat(2, auto);
-  background-color: var(--bg-color-primary);
 }
 .logo__box {
   grid-row-end: 3;
@@ -40,7 +33,7 @@
 .header__work__time {
   font-size: 12px;
   font-weight: 700;
-  color: #C49A6C;
+  color: var( --additional-color);
 }
 .languages {
   display: flex;
@@ -49,6 +42,7 @@
 }
 .languages img {
   width: 27px;
+  cursor: pointer;
 }
 .languages img:not(:last-child) {
   margin-right: 8px;
@@ -70,13 +64,14 @@
   font-size: 15px;
   padding: 10px 15px;
   border-radius: 7px;
-  background-color: #008251;
+  background-color: var(--bg-color-secondary);
 }
 .header__navbar {
   display: flex;
   padding: 0 80px;
   justify-content: space-evenly;
   background-color: var(--bg-color-secondary);
+  box-shadow: 0 2px 8px 0.1px var(--additional-color);
 }
 .navbar__link {
   font-size: 18px;
@@ -87,5 +82,5 @@
   border-bottom: 4px solid transparent;
 }
 .navbar__link:hover {
-  border-bottom: 4px solid #C49A6C;
+  border-bottom: 4px solid var( --additional-color);
 }

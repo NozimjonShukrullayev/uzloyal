@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --text-color-link-dark: #222;
+  --text-color-link-light: #fcfcfc;
+  --bg-color-primary: #fff;
+  --bg-color-secondary: #008251;
+  --additional-color: #C49A6C;
+}
 
 * {
   margin: 0;
@@ -17,6 +25,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p {
+  letter-spacing: 0.8px;
 }
 
 #main {
