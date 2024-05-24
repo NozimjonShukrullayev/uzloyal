@@ -13,9 +13,9 @@ function Footer() {
             <h3 className="brand__title">LOYAL advokatlik byurosi</h3>
             <p className="brand__description">Biz Sizga mukammal yordam bera oladigan eng yaxshi yuridik firmamiz!</p>
             <div className="footer__social__media">
-              <span><FaFacebookF className="footer__social" /></span>
-              <span><FaTelegramPlane className="footer__social" /></span>
-              <span><FaInstagram className="footer__social" /></span>
+              <a href="https://www.facebook.com/people/Advokat-uzbekistan-24/61554269997134/?mibextid=ZbWKwL" target={"_blank"}><span><FaFacebookF className="footer__social" /></span></a>
+              <a className="social__media" href="https://t.me/uz_loyal" target={"_blank"}><span><FaTelegramPlane className="footer__social" /></span></a>
+              <a className="social__media" href="https://www.instagram.com/advokat_uzbekistan_24/" target={"_blank"}><span><FaInstagram className="footer__social" /></span></a>
             </div>
           </div>
           <div className="footer__links">

@@ -29,11 +29,14 @@
 .footer__social__media {
   gap: 20px;
   display: flex;
+  align-items: center;
 }
 .footer__social__media span {
   padding: 10px;
+  display: flex;
   cursor: pointer;
   transition: 0.2s;
+  align-self: center;
   border-radius: 50%;
   background-color: #00613c;
 }
@@ -47,7 +50,7 @@
 .footer__links h4, 
 .footer__services h4 {
   font-weight: 400;
-  margin-bottom: 15px;
+  margin: 5px 0 15px 0;
   font-size: clamp(18px, 4vw, 25px);
   font-family: "DM Serif Text", serif;
 }
