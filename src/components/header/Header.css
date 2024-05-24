@@ -9,6 +9,7 @@
   top: 0px;
   left: 0px;
   position: sticky;
+  z-index: 9999;
 }
 #header .header__grid {
   display: grid;
