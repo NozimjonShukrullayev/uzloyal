@@ -90,6 +90,17 @@
   color: var(--additional-color);
 }
 
+@media only screen and (max-width: 991px) {
+  .footer__grid {
+    gap: 20px;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  }
+  .brand__description {
+    width: 80%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .footer__copyright__terms {
     gap: 15px;
