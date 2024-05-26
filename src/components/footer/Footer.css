@@ -108,3 +108,10 @@
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .copyright,
+  .terms__link {
+    font-size: 12px;
+  }
+}
